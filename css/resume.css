@@ -67,7 +67,6 @@ html{
 .welcome{
 	color:#fff;
 	margin:20px 0 40px 0;
-	font-size: 20px;
 }
 .guide{
 	width: 100%;
@@ -92,6 +91,7 @@ html{
 .guide span:nth-of-type(4){
 	background-color: #C5A6A1;
 }
+
 .module{
 	background-color: #fff;
 	border-radius: 10px;
