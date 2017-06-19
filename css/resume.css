@@ -16,6 +16,22 @@ html{
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
+.list dt,.list dd{
+	display: inline-block;
+	vertical-align: top;
+}
+.list dt{
+	margin: -5px 5px 0 0;
+	font-weight: normal;
+}
+.list dd{
+	width: 80%;
+}
+.listicon{
+	font-size: 24px;
+	padding-right:5px;
+}
+
 #bg{
 	position: fixed;
 	width: 100%;
@@ -45,7 +61,7 @@ html{
 }
 .motto{
 	color: #fff;
-	font-size: 1rem;
+	font-size: 13px;
 	margin-top: 10px;
 }
 .welcome{
@@ -89,7 +105,7 @@ html{
 	margin-bottom: 25px;
 }
 
-.about-me,.contact{
+.about-me,.skill,.contact{
 	padding: 10px 0;
 }
 .file-link{
@@ -138,7 +154,7 @@ html{
 	margin-top: 20px;
 }
 .project-info{
-	font-size: 1rem;
+	font-size: 13px;
 }
 .info dt{
 	float: left;
