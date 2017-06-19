@@ -45,7 +45,7 @@ html{
 }
 .motto{
 	color: #fff;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	margin-top: 10px;
 }
 .welcome{
@@ -63,7 +63,6 @@ html{
 	display: inline-block;
 	border-radius: 100%;
 	padding:20px;
-	
 }
 .guide span:nth-of-type(1){
 	background-color: #6B4669;
@@ -137,6 +136,9 @@ html{
 }
 .projects-pagination{
 	margin-top: 20px;
+}
+.project-info{
+	font-size: 1rem;
 }
 .info dt{
 	float: left;
