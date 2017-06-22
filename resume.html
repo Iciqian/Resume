@@ -5,36 +5,47 @@
 	<title>刘冰清</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/resume.css">
 	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
 </head>
 <body>
-	<div class="row" id="bg">
-		<div class="col-md-6 col-sm-6 col-xs-6 bg-l"></div>
-		<div class="col-md-6 col-sm-6 col-xs-6 bg-r"></div>
+	<div id="bg">
 	</div>
 	<div id="content">
-		<div class="container" >
-			<div class="row avatar">
-				<img class="img-circle col-md-offset-5 col-md-2 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4 img-responsive avatar-img" src="img/avatar.png">
-			</div>
-			<p class="motto text-center">
-				不是一个没有编程梦想的女同学
-			</p>
-			<h3 class="welcome text-center">嗨：）你好，我是刘冰清</h3>
-			<div class="dec">
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>	
-			<div class="about-me module" id="aboutme">
-				<h3 class="text-center module-title">关于我</h3>
-				<p class="info-text center-block">我叫刘冰清，20岁，来自北京，目前就读东北财经大学。大二时，由于社团活动偶然接触到了前端技术，顿时感到十分的有趣，遂踏上自学前端之路。喜欢设计，喜欢编程，因为热爱，所以努力。</p>	
+		<ul id="menu">
+		  <li data-menuanchor="anchor1" class="active"><a class="btn" href="#anchor1">欢迎</a></li>
+		  <li data-menuanchor="anchor2"><a class="btn" href="#anchor2">简介</a></li>
+		  <li data-menuanchor="anchor3"><a class="btn" href="#anchor3">技能</a></li>
+		  <li data-menuanchor="anchor4"><a class="btn" href="#anchor4">演示</a></li>
+		  <li data-menuanchor="anchor5"><a class="btn" href="#anchor5">评价</a></li>
+		  <li data-menuanchor="anchor6"><a class="btn" href="#anchor6">使用</a></li>
+		</ul>
+		<div class="container" id="container">
+		<div class="cover section" id="cover">
+			<h1 class="text-center welcome">欢迎阅读 &lt;刘冰倩&gt; 的中文文档</h1>
+			<p class="text-center intro">刘冰倩是一款轻巧实用的工具库，具有丰富的功能：）</p>
+			<ul class="resume-nav nav">
+				<li class="nav-list"><a href="#anchor2" class="btn nav-link">简介</a></li>
+				<li class="nav-list"><a href="#anchor3" class="btn nav-link">技能</a></li>
+				<li class="nav-list"><a href="#anchor4" class="btn nav-link">演示</a></li>
+				<li class="nav-list"><a href="#anchor5" class="btn nav-link">评价</a></li>
+				<li class="nav-list"><a href="#anchor6" class="btn nav-link">使用</a></li>
+			</ul>
+			<p class="text-center down"><a href="#anchor2"><i class="iconfont">&#xe60e;</i></a></p>
+		</div>
+			
+			<div class="about-me section module" id="aboutme">
+				<h3 class="text-center section-title">简介</h3>
+				<h2 class="text-center"></h2>
+				<div class="row avatar">
+					<img class="img-circle col-md-offset-5 col-md-2 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4 img-responsive avatar-img" src="img/avatar.png">
+				</div>
+				<p class="info-text center-block">刘冰倩来自北京，目前大三。大二时，她由于社团活动接触到前端技术，从此一发不可收拾，踏上学习前端的漫漫之旅。现在她已经成为了一个功能丰富的工具库。</p>
 				<div class="info personal-info">
 					<h4 class="text-center">基本信息</h4>
 					<dl class="clearfix">
@@ -68,15 +79,8 @@
 				</div>
 			</div>
 
-			<div class="position module" id="position">
-				
-				<h3 class="text-center module-title" >求职意向</h3>
-				<h4 class="text-center"><i class="iconfont">&#xe60c;</i></h4>
-				<h4 class="text-center">前端实习生</h4>
-			</div>
-
-			<div class="skill module" id="skill">
-				<h3 class="text-center module-title">个人技能</h3>
+			<div class="skill section fp-auto-height module " id="skill">
+				<h3 class="text-center section-title">技能</h3>
 				<div class="row">
 					<div class="col-md-offset-3 col-md-8">
 						<dl class="clearfix list"><dt><i class="iconfont listicon">&#xe600;</i></dt><dd>熟练使用html、css、javascript完成复杂的界面效果。</dd></dl>
@@ -99,8 +103,8 @@
 				</div>
 			</div>
 
-			<div class="projects module" id="projects">
-				<h3 class="text-center module-title">项目经历</h3>
+			<div class="projects section fp-auto-height module" id="projects">
+				<h3 class="text-center section-title">项目经历</h3>
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
@@ -146,8 +150,8 @@
 			</div>
 		</div>
 
-		<div class="self-comment module" id="selfcomment">
-			<h3 class="text-center module-title">自我评价</h3>
+		<div class="self-comment section fp-auto-height module" id="selfcomment">
+			<h3 class="text-center section-title">自我评价</h3>
 			<h4 class="text-center"><i class="iconfont">&#xe67c;</i></h4>
 			<p class="text-center">
 				*个性乐观，有团队精神。
@@ -163,8 +167,9 @@
 			</p>
 		</div>
 		
-		<div class="contact module" id="contact">
-			<h3 class="text-center module-title" >联系我</h3>
+		<div class="contact section fp-auto-height module" id="contact">
+			<h3 class="text-center section-title" >使用</h3>
+			<p class="text-center">如果您认为她还不错，请通过以下方式联系她，使用她：</p>
 			<h4 class="text-center"><i class="iconfont">&#xe611;</i></h4>
 				<div class="info contact-info">
 					<dl class="clearfix">
