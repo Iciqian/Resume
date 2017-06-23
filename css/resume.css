@@ -107,9 +107,9 @@ html{
 }
 .down{
 	position: absolute;
-	width: 100%;
 	left:0;
 	bottom: 10px;
+	width: 100%;
 }
 .down a:hover .iconfont{
 	color: #9400D3;
@@ -218,7 +218,10 @@ html{
 		margin-top: 0px;
 	}
 	.down{
-		bottom: 0;
+		bottom: 0px;
+	}
+	.down .iconfont{
+		font-size: 22px;
 	}
 
 }
