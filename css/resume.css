@@ -84,7 +84,7 @@ html{
 .welcome{
 	display: none;
 	color: #fff;
-	margin: -100px 0 30px;
+	margin: 0px 0 30px;
 }
 .resume-nav{
 	display: flex;
@@ -109,7 +109,7 @@ html{
 	position: absolute;
 	width: 100%;
 	left:0;
-	bottom: 30px;
+	bottom: 10px;
 }
 .down a:hover .iconfont{
 	color: #9400D3;
