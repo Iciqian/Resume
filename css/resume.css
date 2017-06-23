@@ -84,7 +84,7 @@ html{
 .welcome{
 	display: none;
 	color: #fff;
-	margin: 0px 0 30px;
+	margin: -50px 0 30px;
 }
 .resume-nav{
 	display: flex;
@@ -214,6 +214,13 @@ html{
 	.nav-list{
 		margin:10px 100px;
 	}
+	.welcome{
+		margin-top: 0px;
+	}
+	.down{
+		bottom: 0;
+	}
+
 }
 @media screen and (max-width: 360px){
 	#cover .fq-tableCell{
