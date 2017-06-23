@@ -48,7 +48,6 @@ html{
 	height:100%;
 	z-index: 10;
 	background-image:linear-gradient(to bottom,#9F79EE,#FE868B);
-
 }
 .container{
 	height: 100%;
@@ -63,7 +62,7 @@ html{
 #menu li{
 	margin-bottom: 10px;
 	border-radius: 5px;
-	background-color: #1A99FF;
+	background-color: #45CC4C;
 	opacity: 0.9;
 }
 #menu li.active{
@@ -83,8 +82,9 @@ html{
 	margin:0 0 50px;
 }
 .welcome{
+	display: none;
 	color: #fff;
-	margin: 170px 0 30px;
+	margin: -100px 0 30px;
 }
 .resume-nav{
 	display: flex;
@@ -103,8 +103,7 @@ html{
 }
 .resume-nav .nav-link:hover{
 	color:#fff;
-	background-color: #9400D3;
-	
+	background-color: #45CC4C;
 }
 .down{
 	position: absolute;
@@ -125,13 +124,10 @@ html{
 	width: 100%;
 	height: 100%;
 	opacity: 0.9;
-}
-.section .fp-tableCell{
-	vertical-align: top;
+	padding: 10px 10px;
 }
 .section{
 	position: relative;
-	padding: 0.1px;
 	margin-bottom: 20px;
 }
 .section-title{
@@ -147,7 +143,7 @@ html{
 	width: 100%;
 	z-index: 100;
 }
-.about-me,.skill,.contact{
+.about-me,.skill,.projects,.contact{
 	padding: 10px 0;
 }
 .file-link{
@@ -207,10 +203,8 @@ html{
 .info dd{
 	float: left;
 }
+
 @media screen and (max-width: 768px){
-	.welcome{
-		margin-top: 50px;
-	}
 	.intro{
 		margin-bottom: 20px; 
 	}
@@ -221,7 +215,13 @@ html{
 		margin:10px 100px;
 	}
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 360px){
+	#cover .fq-tableCell{
+		vertical-align: top;
+	}
+	.welcome{
+		margin-top: 10px;
+	}
 	.personal-info{
 		margin-top: 10px;
 	}
@@ -234,4 +234,5 @@ html{
 	.down{
 		bottom: 0px;
 	}
+
 }
