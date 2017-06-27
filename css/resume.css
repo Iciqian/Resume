@@ -49,9 +49,7 @@ html{
 	z-index: 10;
 	background-image:linear-gradient(to bottom,#9F79EE,#FE868B);
 }
-.container{
-	height: 100%;
-}
+
 #menu{
 	position: fixed;
 	right:0;
