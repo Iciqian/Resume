@@ -14,7 +14,6 @@ $('#container').fullpage({
 				menu: '#menu',
 				afterLoad: function(anchorLink, index){
 					if (index == 1) {
-						$('#welcome').fadeIn();
 						$('#menu').fadeOut();
 					}else{
 						$('#menu').fadeIn();
